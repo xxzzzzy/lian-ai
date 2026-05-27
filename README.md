@@ -118,7 +118,7 @@ git clone https://github.com/xxzzzzy/lian-ai.git ~/.hermes/skills/lian-ai
 ## 文件结构
 
 ```
-ruian-skill/
+lian-ai/
 ├── SKILL.md              # 核心 Skill 文件（系统 prompt）
 ├── README.md             # 本文件
 ├── LICENSE               # MIT 协议
