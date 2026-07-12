@@ -57,20 +57,34 @@ lian-ai/
 ├── SKILL.md
 ├── README.md
 ├── FIDELITY.md
+├── agents/
+│   └── openai.yaml
 ├── evals/
 │   └── evals.json
+├── scripts/
+│   └── validate-skill.mjs
 ├── examples/
 │   └── conversations.md
 └── references/
     ├── defense-patterns.md
+    ├── safety-protocol.md
     └── research/
         ├── 01-core-analysis.md
         ├── 02-conversations.md
         ├── 03-expression-dna.md
         ├── 04-external-views.md
         ├── 05-decisions.md
-        └── 06-timeline.md
+        ├── 06-timeline.md
+        └── 07-source-manifest.md
 ```
+
+## 验证
+
+```bash
+node scripts/validate-skill.mjs
+```
+
+完整行为测试和评分记录见 [FIDELITY.md](FIDELITY.md)。
 
 ## 数据与来源
 
